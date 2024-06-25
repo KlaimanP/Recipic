@@ -4,11 +4,35 @@
     <meta charset="utf-8">
     <title>Titre de ma page</title>
     <meta name="description" content="description de ma page">
-    <link rel="stylesheet" href="dist/styles/main.css">
     <link rel="stylesheet" href="https://use.typekit.net/ifm8sum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/styles/main.css">
   </head>
   <body>
-    <h1>Titre de ma page</h1>
+    <header class="header">
+      <div>
+        <a href="index.html"><img src="dist/images/logo.png" alt="logo recipic"></a>
+      </div>
+      <div>
+        <ul class="header__nav">
+          <li class="recette"><a href="#">Recette </a></li>
+          <li class="contact"><a href="#">Contact </a></li>
+          <li class="compte"><a href="#">Mon compte </a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="hero">
+      <h1>Transformez une photo en recette à reproduire chez vous.</h1>
+      <h2>À vous de jouer</h2>
+      <img src="dist/images/landingPage/partie_1/photo.png" alt="plat">
+      <div class="hero__ia">
+        <img src="dist/images/landingPage/partie_1/upload.svg" alt="upload">
+        <h3>Chargez votre image ici <br>et appuyez pour découvrir.</h3>
+        <p>Vous pouvez insérer <br>.jpg , .jpeg , .jfif , .pjpeg , .pjp, .png, .svg</p>
+      </div>
+    </section>
     <script src="dist/scripts/main.js"></script>
   </body>
 </html>

@@ -1,12 +1,15 @@
+@charset "UTF-8";
 html {
   font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: "";
+  font-family: "Sofia Pro Soft", "Epilogue", sans-serif;
+  background-image: url("../../../dist/images/landingPage/partie_2/photo_mid_web.jpg ");
+  background-size: 100%;
+  background: cover;
   margin: 0;
-  background-color: #FFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -37,4 +40,60 @@ body {
   .hideForDesktop {
     display: none;
   }
+}
+
+.bouton {
+  padding: 15px, 50px, 15px, 50px;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #000;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0px;
+}
+.header__nav {
+  display: flex;
+  gap: 70px;
+  padding: 0;
+}
+.header__nav li {
+  text-decoration: none;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px; /* Pour laisser de l'espace pour l'icône */
+  background-size: 20px 22px; /* Adapter la taille des icônes */
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #83C5BE;
+  font-family: "Epilogue", sans-serif;
+}
+
+.recette {
+  background-image: url("../../../dist/images/recette.png");
+}
+
+.contact {
+  background-image: url("../../../dist/images/contact.png");
+}
+
+.compte {
+  background-image: url("../../../dist/images/mon_compte.png");
+}
+
+.hero {
+  background-color: #fff;
+}
+.hero__ia {
+  border: 2px solid #E29578;
+  display: none block;
 }/*# sourceMappingURL=main.css.map */

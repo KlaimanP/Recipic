@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    background-color: $white;
+    box-shadow:0px 0px 4px 0px $black;
+    border-radius:0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+
+    &__nav{
+        display: flex;
+        gap: 70px;
+        padding: 0;
+        
+    }
+    
+    &__nav li{
+        text-decoration: none;
+        list-style: none; 
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 30px; /* Pour laisser de l'espace pour l'icône */
+        background-size: 20px 22px; /* Adapter la taille des icônes */
+        
+    }
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: $secondaryColor;
+    font-family: "Epilogue", sans-serif;
+}
+
+
+.recette{
+    background-image: url('../../../dist/images/recette.png');
+}
+
+.contact{
+    background-image: url('../../../dist/images/contact.png');
+}
+
+.compte{
+    background-image: url('../../../dist/images/mon_compte.png');
+}
+
