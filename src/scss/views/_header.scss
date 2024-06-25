@@ -11,8 +11,7 @@
     &__nav{
         display: flex;
         gap: 70px;
-        padding: 0;
-        
+        padding: 0px;        
     }
     
     &__nav li{
@@ -21,7 +20,7 @@
         background-repeat: no-repeat;
         background-position: left center;
         padding-left: 30px; /* Pour laisser de l'espace pour l'icône */
-        background-size: 20px 22px; /* Adapter la taille des icônes */
+        background-size: 20px 22px; 
         
     }
 }
@@ -36,14 +35,14 @@ a{
 
 
 .recette{
-    background-image: url('../../../dist/images/recette.png');
+    background-image: url('../../../dist/images/header/recette.png');
 }
 
 .contact{
-    background-image: url('../../../dist/images/contact.png');
+    background-image: url('../../../dist/images/header/contact.png');
 }
 
 .compte{
-    background-image: url('../../../dist/images/mon_compte.png');
+    background-image: url('../../../dist/images/header/mon_compte.png');
 }
 

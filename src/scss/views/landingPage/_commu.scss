@@ -1,0 +1,173 @@
+.commu {
+    text-align: center;
+    background-color: $white;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 150px;
+    padding-top: 110px;
+
+    
+
+    &__etiquette {
+        color: $white;
+        display: flex;
+        justify-content: space-around;
+        padding: 60px 237px;
+        
+
+        &__marie {
+            background-color: $tertiaryColor;
+            padding: 25px;  
+            border-radius: 15px;
+            box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+
+            &__title {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            &__data {
+                display:flex ;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                padding-bottom: 25px;
+            }
+        
+            &__decouvrir{
+                padding: 10px 20px;
+                border: solid 2px $white;
+                border-radius: 5px;
+                line-height: 24px;
+                color: $white;
+            }    
+
+            &__decouvrir:hover{
+                transition: ease-in-out 0.2s;
+                color: $tertiaryColor;  
+                border: solid 2px $tertiaryColor;
+                border-radius: 5px;
+                background-color: $quaternaryColor;
+            }
+        
+        
+        }
+
+        &__jacque {
+            background-color: $tertiaryColor;
+            padding: 25px;  
+            border-radius: 15px;
+            box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+
+            &__title {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            &__data {
+                display:flex ;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                padding-bottom: 25px;
+            }
+        
+            &__decouvrir{
+                padding: 10px 20px;
+                border: solid 2px $white;
+                border-radius: 5px;
+                line-height: 24px;
+                color: $white;
+            }    
+
+            &__decouvrir:hover{
+                transition: ease-in-out 0.2s;
+                color: $tertiaryColor;  
+                border: solid 2px $tertiaryColor;
+                border-radius: 5px;
+                background-color: $quaternaryColor;
+            }
+        
+        
+        }
+
+        &__sylvie {
+            background-color: $tertiaryColor;
+            padding: 25px;  
+            border-radius: 15px;
+            box-shadow:-4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+
+            &__title {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            &__data {
+                display:flex ;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                padding-bottom: 25px;
+            }
+        
+            &__decouvrir{
+                padding: 10px 20px;
+                border: solid 2px $white;
+                border-radius: 5px;
+                line-height: 24px;
+                color: $white;
+            }    
+
+            &__decouvrir:hover{
+                transition: ease-in-out 0.2s;
+                color: $tertiaryColor;  
+                border: solid 2px $tertiaryColor;
+                border-radius: 5px;
+                background-color: $quaternaryColor;
+            }
+        
+        }
+    }
+
+    &__button{
+        padding: 15px 70px;
+        border: solid 2px $tertiaryColor;
+        border-radius: 5px;
+        line-height: 24px;
+        color: $tertiaryColor;  
+    }
+
+    &__button:hover{
+        transition: ease-in-out 0.2s;
+        color: $white;  
+        border: solid 2px $white;
+        border-radius: 5px;
+        background-color: $tertiaryColor;
+    }
+        
+}
+
+.commu h2{
+    width: 922px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    color:$tertiaryColor;
+}
+
+.commu p{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+

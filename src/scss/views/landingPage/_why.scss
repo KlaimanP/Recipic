@@ -1,0 +1,116 @@
+.why{
+    text-align: center;
+    background-color: $primaryColor;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 150px;
+    padding-top: 90px;
+    
+    &__intro{
+        padding-bottom: 150px;
+    }
+
+    &__intro h2{
+        margin:0px;
+        padding-bottom: 50px;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 70.4px;
+        color:$white;
+        opacity: 0.9;
+        
+    }
+
+    &__intro p{
+        color: $white;
+        width: 686px;
+        margin: 0 auto;
+        font-family: Epilogue;
+        line-height: 24px;
+    }
+
+    &__photo{
+        padding-bottom:200px ;
+    }
+
+    &__photo h2{
+        width: 736px;
+        margin: 0 auto;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 70.4px;
+        color:$white;
+    }
+
+    &__photo p{
+        color: $white;
+        width: 686px;
+        margin: 0 auto;
+        font-family: Epilogue;
+        line-height: 24px;
+    }
+
+    &__suiviRecette{
+        width: 1396px;
+        margin: 0 auto;
+        padding: 25px 50px;
+        border-radius: 15px;
+        background: $secondaryColor;
+        background: linear-gradient(0deg, rgba(0,109,119,0) 30%, rgba(131,197,190,1) 100%);
+
+
+        &__pos{
+            display: flex;
+            padding-top: 50px;
+
+            &__img{
+                display: flex;
+                justify-content: space-around;
+                width: 686px;
+                height: 374px;
+                border-radius: 15px;
+            }
+        }
+
+       
+    }
+
+
+    &__suiviRecette h2{
+        width: 736px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 70.4px;
+        color:$white;
+    }
+
+    &__suiviRecette p{
+        color: $white;
+        width: 686px;
+        margin: 0 auto;
+        font-family: Epilogue;
+        line-height: 24px;
+    }
+
+    &__suiviRecette a{
+        width: 112px;
+        margin: 0 auto;
+        display: block;
+        padding: 15px 50px;
+        margin-top: 50px;
+        border: solid 2px $white;
+        border-radius: 5px;
+        line-height: 24px;
+        color: $white;        
+    }
+
+    &__suiviRecette a:hover{
+        transition: ease-in-out 0.2s;
+        border: solid 2px $primaryColor;
+        background-color: $secondaryColor;
+       
+    }
+}
