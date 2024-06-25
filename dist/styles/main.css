@@ -1,3 +1,40 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  color: rgb(122, 46, 46);
+  font-size: 1.6rem;
+  font-family: "";
+  margin: 0;
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .hideForTablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .showForTablet {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hideForMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .showForMobile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hideForDesktop {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+.hideForTablet {
+    @media screen and (max-width:1024px) {
+      display: none;
+    }
+  }
+  .showForTablet {
+    @media screen and (max-width:1024px) {
+      display: block;
+    }
+  }
+  
+  .hideForMobile {
+    @media screen and (max-width:430px) {
+      display: none;
+    }
+  }
+  
+  .showForMobile {
+    @media screen and (max-width:430px) {
+      display: block;
+    }
+  }
+  
+  
+  .hideForDesktop {
+    @media screen and (min-width:1024px) {
+      display: none;
+    }
+  }
