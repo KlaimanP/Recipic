@@ -15,19 +15,10 @@
     }
 
     &__ia h3{
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35.2px;
         color: $tertiaryColor;
     }
 
     &__ia p{
-        font-family: Epilogue;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
         color: $tertiaryColor;
         opacity: 0.65;
     }
@@ -55,20 +46,13 @@
 .hero h1{
     width: 1396px;
     margin: 0 auto;
-    font-size: 96px;
-    line-height: 105.6px; 
 }
 
 .hero h2{
-    
-    color: $primaryColor;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 70.4px;
+    color: $primaryColor;;
 }
 
 .photoPlat{
     position: absolute;
-    left: 4%;    
+    left: 15%;    
 }

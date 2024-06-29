@@ -13,26 +13,23 @@
         display: flex;
         justify-content: space-around;
         padding: 60px 237px;
+        gap: 203px;
         
 
         &__marie {
+            display: flex;
+            flex-direction: column;
             background-color: $tertiaryColor;
             padding: 25px;  
             border-radius: 15px;
             box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.25);
- 
-
-            &__title {
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 22px;
-            }
+            width: 330px;
+            margin: 0 auto;
+            
 
             &__data {
                 display:flex ;
-                align-items: center;
-                justify-content: center;
-                justify-content: space-around;
+                justify-content: space-between;
                 padding-bottom: 25px;
             }
         
@@ -56,24 +53,21 @@
         }
 
         &__jacque {
+            display: flex;
+            flex-direction: column;
             background-color: $tertiaryColor;
             padding: 25px;  
             border-radius: 15px;
             box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            width: 330px;
+            margin: 0 auto;
  
 
-            &__title {
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 22px;
-            }
 
             &__data {
                 display:flex ;
-                align-items: center;
-                justify-content: center;
-                justify-content: space-around;
                 padding-bottom: 25px;
+                justify-content: space-between;
             }
         
             &__decouvrir{
@@ -96,24 +90,21 @@
         }
 
         &__sylvie {
+            display: flex;
+            flex-direction: column;
             background-color: $tertiaryColor;
             padding: 25px;  
             border-radius: 15px;
             box-shadow:-4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            width: 330px;
+            margin: 0 auto;
  
 
-            &__title {
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 22px;
-            }
 
             &__data {
                 display:flex ;
-                align-items: center;
-                justify-content: center;
-                justify-content: space-around;
                 padding-bottom: 25px;
+                justify-content: space-between;
             }
         
             &__decouvrir{
@@ -154,20 +145,23 @@
 }
 
 .commu h2{
+    color:$tertiaryColor;
     width: 922px;
     margin: 0 auto;
-    padding-bottom: 30px;
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 70.4px;
-    color:$tertiaryColor;
 }
 
 .commu p{
-    font-family: Epilogue;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    width: 448px;
+    margin: 0 auto;
 }
 
+.pp {
+    width: 91px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.imgPlat{
+    width: 280px;
+    margin: 0 auto;
+}
