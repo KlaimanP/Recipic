@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de ma page</title>
+    <meta name="description" content="description de ma page">
+    <link rel="stylesheet" href="https://use.typekit.net/ifm8sum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="../index.html"><img src="../dist/images/header/logo.png" alt="logo recipic"></a>
+      </div>
+      <div>
+        <ul class="header__nav">
+          <li class="recette"><a href="#">Recette </a></li>
+          <li class="contact"><a href="#">Contact </a></li>
+          <li class="compte"><a href="#">Mon compte </a></li>
+        </ul>
+      </div>
+    </header>
+<!-- page recette home -->
+    <section id="recetteHome">
+        <div class="recipe">
+            <!-- page recette img+retour -->
+            <div class="recipe__illu">
+                <a href="../index.html" class="recipe__illu__back"><img src="../dist/images/recettePage/Charger_autre_image.png" alt="retour au menu"></a>
+                <a href="../index.html" class="recipe__illu__backtext">Charger une autre image</a>
+                <div>	
+                    <img src="../dist/images/recettePage/Spaghetti carbonara.png" alt="pate carbonara">
+                </div>
+            </div>
+            <!-- page recette ingrédients -->
+        </div>
+        <div class="container">
+            <nav>
+                <ul class="container__carrousel">
+                    <a href="#"><img src="../dist/images/recettePage/Prev_invisible.png" alt="prev"></a>
+                    <li id="point1"><a href="#" ></a></li>
+                    <li id="point2"><a href="#"></a></li>
+                    <li id="point3"><a href="#"></a></li>
+                    <a href="../recette/ingredient.html"><img src="../dist/images/recettePage/Next_visible.png" alt="next"></a>
+                </ul>
+            </nav>	
+        </div>
+    </section>
+    <script src="../dist/scripts/main.js"></script>
+  </body>
+</html>

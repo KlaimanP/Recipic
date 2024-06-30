@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de ma page</title>
+    <meta name="description" content="description de ma page">
+    <link rel="stylesheet" href="https://use.typekit.net/ifm8sum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="../index.html"><img src="../dist/images/header/logo.png" alt="logo recipic"></a>
+      </div>
+      <div>
+        <ul class="header__nav">
+          <li class="recette"><a href="#">Recette </a></li>
+          <li class="contact"><a href="#">Contact </a></li>
+          <li class="compte"><a href="#">Mon compte </a></li>
+        </ul>
+      </div>
+    </header>
+<!-- page recette home -->
+    <section id="recetteHome">
+        <div class="recipe">
+            <!-- page recette img+retour -->
+            <div class="recipe__illu">
+                <a href="../index.html" class="recipe__illu__back"><img src="../dist/images/recettePage/Charger_autre_image.png" alt="retour au menu"></a>
+                <a href="../index.html" class="recipe__illu__backtext">Charger une autre image</a>
+                <div class="recipe__illu__plat">	
+                    <img src="../dist/images/recettePage/Spaghetti carbonara.png" alt="pate carbonara">
+                </div>
+            </div>
+            <!-- page recette les infos -->
+            <div class="recipe__info">
+                <h1>Spaghetti à la carbonara</h1>
+                <p class="recipe__info__intro">La carbonara est un plat de pâtes italien caractérisé par une sauce crémeuse à base d'œufs, de fromage (généralement du pecorino ou du parmesan) et de guanciale ou de pancetta. Il est célèbre pour son mariage parfait entre la richesse du fromage, la texture crémeuse des œufs et le goût salé du porc.</p>
+                <div>
+                    <img src="../dist/images/recettePage/page1/moins.png" alt="moins">
+                    <img src="../dist/images/recettePage/page1/personne.png" alt="nombres personne" class="recipe__info__personne">
+                    <img src="../dist/images/recettePage/page1/plus.png" alt="plus">
+                </div>
+                <div class="recipe__info__data">
+                    <div>
+                        <div class="recipe__info__data__niveau">
+                            <h4>Niveau</h4>		
+                            <img src="../dist/images/recettePage/page1/niveau.png" alt="graduation">
+                        </div>								
+                        <p>Basique</p>
+                    </div>
+                    <div>
+                        <h4>Temps</h4>
+                        <p>35 Min</p>
+                    </div>
+                    <div>
+                        <h4>Calories</h4>
+                        <p>1660Kcal</p>
+                    </div>
+                </div>
+                <div class="recipe__info__bouton">
+                    <div class="recipe__info__bouton__fav">
+                        <img src="../dist/images/recettePage/page1/coeur.png" alt="coeur">
+                        <a href="#"  id="favoris"> Mes favoris</a>
+                    </div>	    
+                    <div class="recipe__info__bouton__par">
+                        <img src="../dist/images/recettePage/page1/partager.png" alt="partager">
+                        <a href="#" id="partager"> Partager</a>	
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <nav class="container">
+                <a href="#"><img src="../dist/images/recettePage/Prev_invisible.png" alt="prev"></a>
+                <ul class="container__carrousel">
+                    <li id="point1"><a href="#"></a></li>
+                    <li id="point2"><a href="#"></a></li>
+                    <li id="point3"><a href="#"></a></li>
+                </ul>
+                <a href="../recette/ingredient.html"><img src="../dist/images/recettePage/Next_visible.png" alt="next"></a>
+            </nav>	 
+        </div>
+    </section>
+    <script src="../dist/scripts/main.js"></script>
+  </body>
+</html>

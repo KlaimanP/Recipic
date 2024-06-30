@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
     padding: 25px 0px;
 
     &__nav{
@@ -26,11 +27,8 @@
 }
 
 
-a{
-    text-decoration: none;
-    text-align: center;
+.header__nav a{
     color: $primaryColor;
-    font-family: "Epilogue", sans-serif;
 }
 
 
