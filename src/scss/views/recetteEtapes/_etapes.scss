@@ -1,0 +1,51 @@
+.recipe{
+    &__step{
+        display: flex;
+        gap: 25px;
+        align-items: baseline;
+        
+
+        &__num{
+            background-color: $tertiaryColor;
+            border-radius: 50px;
+            padding: 2px 8px;
+            color: $white;
+        }
+
+        &__num h4{
+            margin: 0;
+        }
+
+        &__text{
+            width: 600px;
+            padding-bottom: 10px;
+        }
+
+        &__text h4{
+            margin: 0px;
+        }
+    }
+}
+
+
+
+#point1E{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $quaternaryColor;
+}
+
+#point2E{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $quaternaryColor;
+}
+
+#point3E{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $tertiaryColor;
+}

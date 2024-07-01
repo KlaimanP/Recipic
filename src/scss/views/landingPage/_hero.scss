@@ -1,9 +1,6 @@
 .hero {
-    background-color: $white;
-    z-index: -1;
-    position: relative;
+    background: rgba(255, 221, 210, 0.20);
     text-align: center;
-    top: 4%;
     padding: 150px;
 
     &__ia{
@@ -49,7 +46,7 @@
 }
 
 .hero h2{
-    color: $primaryColor;;
+    color: $primaryColor;
 }
 
 .photoPlat{

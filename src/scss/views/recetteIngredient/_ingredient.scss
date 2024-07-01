@@ -1,0 +1,101 @@
+.recipe{
+    
+    &__pictoTitle {
+        display : flex;
+        align-items:baseline;
+        gap: 25px;
+        }
+
+    &__pictoTitle h2{
+        margin: 0;
+    } 
+
+    &__pictoText {
+        margin-top: 0px;
+    }
+        
+    &__listIngr{
+        display: flex;
+        gap: 25px;
+        align-items:center;
+        
+            &__element{
+            display: flex;
+            align-items: baseline;
+            background-color:$quaternaryColor;
+            gap: 10px;
+            border-radius: 15px;
+            padding: 10px 25px;
+            margin-bottom: 25px;
+            }
+
+            &__element h4{
+                margin: 0;
+            }
+        
+            &__ajoutElement{	
+            display: flex;
+            gap: 10px;
+            align-items:baseline;
+            border: dashed 2px #646464 ;
+            border-radius: 15px;
+            padding: 10px 25px;
+            margin-bottom: 100px;
+            }
+
+            &__ajoutElement h4{
+                margin: 0;
+                color:#646464 ;
+            }
+        }
+        
+            &__gear{
+            display: flex;
+            align-items:center;
+            gap:25px;
+            
+                &__etiquette{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 100px;
+                height: 100px;
+                border: solid 2px $quaternaryColor;
+                border-radius: 25px;
+                }
+
+                &__etiquette img{
+                    width: 65px;
+                    margin: 0 auto;
+                    padding-bottom: 5px;
+                }
+
+                &__etiquette h4{
+                    margin: 0px ;
+                }
+            
+            }
+}
+
+
+#point1I{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $quaternaryColor;
+}
+
+#point2I{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $tertiaryColor;
+}
+
+#point3I{
+    width  : 15px;
+    height : 15px;
+    border-radius: 3px;
+    background : $quaternaryColor;
+}

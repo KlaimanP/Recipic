@@ -1,20 +1,16 @@
-#recetteHome{
-    background-color: $white;
+#recipeHome{
     padding-left:262px;
     padding-right: 143px;
     padding-top: 68px;
     padding-bottom: 100px;
-    position: relative;
-    top: -15px;
-    z-index: -1;
 }
 
 .recipe{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
-    &__illu{
+    &__drawing{
         width: 567px;
 
 
@@ -46,12 +42,12 @@
             padding-bottom:50px;
             padding-top:50px;
 
-            &__niveau{
+            &__level{
                 display: flex;
                 gap: 25px;
                 align-items: center;
             }
-            &__niveau img{
+            &__level img{
                 height: 15px;
             }
         }
@@ -65,7 +61,7 @@
         }
 
 
-        &__personne{
+        &__people{
             padding:0px 15px;
         }
 
@@ -84,7 +80,7 @@
                 border-radius: 15px;
             }
 
-            &__par{
+            &__share{
                 display: flex;
                 align-items: center;
                 gap: 25px;
@@ -132,21 +128,21 @@
 }
 
 
-#point1{
+#point1H{
     width  : 15px;
     height : 15px;
     border-radius: 3px;
     background : $tertiaryColor;
 }
 
-#point2{
+#point2H{
     width  : 15px;
     height : 15px;
     border-radius: 3px;
     background : $quaternaryColor;
 }
 
-#point3{
+#point3H{
     width  : 15px;
     height : 15px;
     border-radius: 3px;

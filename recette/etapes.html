@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de ma page</title>
+    <meta name="description" content="description de ma page">
+    <link rel="stylesheet" href="https://use.typekit.net/ifm8sum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="../index.html"><img src="../dist/images/header/logo.png" alt="logo recipic"></a>
+      </div>
+      <div>
+        <ul class="header__nav">
+          <li class="recette"><a href="#">Recette </a></li>
+          <li class="contact"><a href="#">Contact </a></li>
+          <li class="compte"><a href="#">Mon compte </a></li>
+        </ul>
+      </div>
+    </header>
+<!-- page recette étapes-->
+    <section id="recipeHome">
+      <div class="recipe">
+          <!-- page recette img+retour -->
+          <div class="recipe__drawing">
+              <a href="../index.html" class="recipe__drawing__back"><img src="../dist/images/recettePage/Charger_autre_image.png" alt="retour au menu"></a>
+              <a href="../index.html" class="recipe__drawing__backtext">Charger une autre image</a>
+              <div class="recipe__drawing__plat">	
+                  <img src="../dist/images/recettePage/Spaghetti carbonara.png" alt="pate carbonara">
+              </div>
+          </div>
+          <!-- page recette les infos -->
+           <div>
+            <div class="recipe__pictoTitle">
+              <img src="../dist/images/recettePage/page3/picto_etapes.png" alt="mortier">
+              <h2>Étapes<h2>
+            </div>
+            <div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>1</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Cuisson des pâtes :</h4>
+                        <p>Faites cuire 300 g de spaghetti dans de l'eau bouillante salée jusqu'à ce qu'ils soient al dente. Égouttez en réservant un peu d'eau de cuisson.</p>
+                    </div>
+                </div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>2</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Cuisson des lardons :</h4>
+                        <p>Pendant la cuisson des pâtes, faites revenir 150 g de lardons fumés dans une poêle jusqu'à ce qu'ils soient croustillants.</p>
+                    </div>
+                </div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>3</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Préparation de la sauce :</h4>
+                        <p>Dans un bol, mélangez 2 jaunes d'œufs avec 100 ml de crème fraîche. Assaisonnez avec du sel et du poivre.</p>
+                    </div>
+                </div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>4</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Assemblage :</h4>
+                        <p>Versez les spaghetti égouttés dans la poêle avec les lardons. Ajoutez la sauce aux œufs et mélangez doucement pour enrober les pâtes.</p>
+                    </div>
+                </div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>5</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Finalisation :</h4>
+                        <p>Ajoutez 50 g de parmesan râpé et mélangez jusqu'à ce que la sauce soit crémeuse et bien répartie.</p>
+                    </div>
+                </div>
+                <div  class="recipe__step">
+                    <div class="recipe__step__num">
+                        <h4>6</h4>
+                    </div>
+                    <div class="recipe__step__text">
+                        <h4>Service :</h4>
+                        <p>Servez immédiatement, en garnissant éventuellement de parmesan supplémentaire et de poivre noir moulu.</p>
+                    </div>
+                </div>
+            </div>
+          </div>      
+      </div>
+      <div>
+          <nav class="container">
+              <a href="../recette/ingredient.html"><img src="../dist/images/recettePage/Prev_visible.png" alt="prev"></a>
+              <ul class="container__carrousel">
+                  <li id="point1E"></li>
+                  <li id="point2E"></li>
+                  <li id="point3E"></li>
+              </ul>
+              <a href="../recette/etapes.html"><img src="../dist/images/recettePage/Next_invisible.png" alt="next"></a>
+          </nav>	 
+      </div>
+    </section>
+    <script src="../dist/scripts/main.js"></script>
+  </body>
+</html>
