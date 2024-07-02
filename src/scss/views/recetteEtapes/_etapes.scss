@@ -34,6 +34,11 @@
     height : 15px;
     border-radius: 3px;
     background : $quaternaryColor;
+    @media screen and (max-width: 430px) {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+    }
 }
 
 #point2E{
@@ -41,6 +46,11 @@
     height : 15px;
     border-radius: 3px;
     background : $quaternaryColor;
+    @media screen and (max-width: 430px) {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+    }
 }
 
 #point3E{
@@ -48,4 +58,11 @@
     height : 15px;
     border-radius: 3px;
     background : $tertiaryColor;
+    @media screen and (max-width: 430px) {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+    }
 }
+
+

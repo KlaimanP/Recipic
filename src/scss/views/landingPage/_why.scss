@@ -4,6 +4,10 @@
     padding-bottom: 150px;
     padding-top: 90px;
     color:$white;
+
+    @media screen and (max-width: 430px) {
+        padding-bottom: 100px;
+    }
     
     &__intro{
         padding-bottom: 150px;
@@ -22,6 +26,13 @@
         }
     }
 
+    &__intro img{
+        @media screen and (max-width: 1024px) {
+            width: 58px;
+          }
+
+    }
+
     &__photo{
         display: flex;
         padding-bottom:200px ;
@@ -36,7 +47,10 @@
           }
           
           @media screen and (max-width: 430px) {
-
+            flex-direction: column-reverse;
+            text-align: center;
+            width: 380px;
+            gap: 0px
         }
     
         
@@ -46,15 +60,13 @@
 
         &__text {
         width: 449px;
+
+        @media screen and (max-width: 430px) {
+            width: 380px;
+        }
         
-        }
-        @media screen and (max-width: 1024px) {
-
-          }
-          
-          @media screen and (max-width: 430px) {
-
-        }
+        }         
+        
 
         
     }
@@ -66,7 +78,7 @@
           }
           
           @media screen and (max-width: 430px) {
-
+            width: 380px;
         }
     }
 
@@ -85,7 +97,11 @@
           }
           
           @media screen and (max-width: 430px) {
-
+            flex-direction: column;
+            text-align: center;
+            width: 380px;
+            gap: 50px;
+            padding: 25px 25px;
         }
 
         &__blockText {
@@ -95,13 +111,17 @@
               }
               
               @media screen and (max-width: 430px) {
-    
+                width: 380px;
             }
         }
         
     
         &__blockText p{
             padding-bottom: 50px;
+            @media screen and (max-width: 430px) {
+                padding-bottom: 25px;
+            }
+    
         }
     
         &__blockText a{
@@ -109,6 +129,7 @@
             border: solid 2px $white;
             border-radius: 5px;
             color: $white;        
+            
         }
     
         &__blockText a:hover{
@@ -125,7 +146,8 @@
               }
               
               @media screen and (max-width: 430px) {
-    
+                width: 380px;
+                margin: 0 auto;
             }
         }
     }

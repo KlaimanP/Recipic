@@ -34,14 +34,45 @@
 
 
 .recette{
-    background-image: url('../../../dist/images/header/recette.png');
+    background-image: url('../images/header/recette.png');
+
+    @media screen and (max-width: 430px) {
+    }
 }
 
 .contact{
-    background-image: url('../../../dist/images/header/contact.png');
+    background-image: url('../images/header/contact.png');
+
+    @media screen and (max-width: 430px) {
+    }
 }
 
 .compte{
-    background-image: url('../../../dist/images/header/mon_compte.png');
+    background-image: url('../images/header/mon_compte.png');
+
+    @media screen and (max-width: 430px) {
+    }
 }
 
+
+.hamburger.hideForDesktop{
+    @media screen and (min-width:430px) {
+        display: none;
+      }
+}
+
+.burgerMenu{
+    position: fixed;
+    left: -300px;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background-color: $primaryColor;
+    transition: all ease-in-out 0.25s;
+    z-index: 100;
+    color:$white;
+  }
+  
+  .burgerMenu.isVisible{
+    left: 0;
+  }

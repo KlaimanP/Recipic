@@ -6,6 +6,7 @@
         padding: 150px 0px;
 
         @media screen and (max-width: 430px) {
+            padding: 50px 0px;
           }
       }
 
@@ -26,11 +27,22 @@
 
     &__ia h3{
         color: $tertiaryColor;
+        @media screen and (max-width: 1024px) {
+            width: 178px;
+            margin: 0 auto;
+          }
     }
 
     &__ia p{
         color: $tertiaryColor;
         opacity: 0.65;
+    }
+
+    &__ia img{
+        @media screen and (max-width: 1024px) {
+            width: 76px;
+          }
+
     }
 
     &__bouton{
@@ -43,6 +55,10 @@
         border-radius: 5px;
         line-height: 24px;
         color: $white;
+
+        @media screen and (max-width: 1024px) {
+            padding: 10px 25px;
+          }
     }
 
     &__bouton:hover{
@@ -78,7 +94,7 @@
       }
       
       @media screen and (max-width: 430px) {
-        width: 99px;
-        left: 2%;
+        width: 105px;
+        left: 10%;
       }  
 }
