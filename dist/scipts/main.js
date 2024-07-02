@@ -1,7 +1,14 @@
-const menu =  document.querySelector('.burgerMenu')
-const burgerButton = document.querySelector('.hamburger')
+var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBtn");
+var closeBtn = document.getElementById("closeBtn");
 
-burgerButton.addEventListener('click', function(){
-  menu.classList.toggle('isVisible')
-  burgerButton.classList.toggle('is-active')
-})
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+function openNav() {
+  sidenav.classList.add("active");
+}
+
+function closeNav() {
+  sidenav.classList.remove("active");
+}

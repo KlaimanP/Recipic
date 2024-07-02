@@ -37,6 +37,7 @@
     background-image: url('../images/header/recette.png');
 
     @media screen and (max-width: 430px) {
+        display: none;
     }
 }
 
@@ -44,6 +45,7 @@
     background-image: url('../images/header/contact.png');
 
     @media screen and (max-width: 430px) {
+        display: none;
     }
 }
 
@@ -51,28 +53,82 @@
     background-image: url('../images/header/mon_compte.png');
 
     @media screen and (max-width: 430px) {
+        display: none;
     }
 }
 
 
-.hamburger.hideForDesktop{
-    @media screen and (min-width:430px) {
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: $secondaryColor;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+
+      @media screen and (min-width:431px) {
         display: none;
       }
-}
-
-.burgerMenu{
-    position: fixed;
-    left: -300px;
-    top: 0;
-    height: 100%;
-    width: 300px;
-    background-color: $primaryColor;
-    transition: all ease-in-out 0.25s;
-    z-index: 100;
-    color:$white;
   }
   
-  .burgerMenu.isVisible{
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: $white;
+    display: block;
+    transition: 0.3s;
+
+      @media screen and (min-width:431px) {
+        display: none;
+      }
+    
+  }
+  
+  .sidenav a:hover {
+    color: $primaryColor;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .sidenav.active {
     left: 0;
+  }
+  
+
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:$primaryColor;
+    margin: 6px 0;
+
+      @media screen and (min-width:431px) {
+        display: none;
+      }
+  }
+
+  #openBtn{
+    @media screen and (min-width:431px) {
+        display: none;
+      }
   }

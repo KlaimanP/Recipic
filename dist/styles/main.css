@@ -184,32 +184,100 @@ h1 {
 .recette {
   background-image: url("../images/header/recette.png");
 }
-.contact {
-  background-image: url("../images/header/contact.png");
-}
-.compte {
-  background-image: url("../images/header/mon_compte.png");
-}
-@media screen and (min-width: 430px) {
-  .hamburger.hideForDesktop {
+@media screen and (max-width: 430px) {
+  .recette {
     display: none;
   }
 }
 
-.burgerMenu {
-  position: fixed;
-  left: -300px;
-  top: 0;
-  height: 100%;
-  width: 300px;
-  background-color: #006D77;
-  transition: all ease-in-out 0.25s;
-  z-index: 100;
-  color: #fff;
+.contact {
+  background-image: url("../images/header/contact.png");
+}
+@media screen and (max-width: 430px) {
+  .contact {
+    display: none;
+  }
 }
 
-.burgerMenu.isVisible {
+.compte {
+  background-image: url("../images/header/mon_compte.png");
+}
+@media screen and (max-width: 430px) {
+  .compte {
+    display: none;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #83C5BE;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+@media screen and (min-width: 431px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+@media screen and (min-width: 431px) {
+  .sidenav a {
+    display: none;
+  }
+}
+
+.sidenav a:hover {
+  color: #006D77;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav.active {
   left: 0;
+}
+
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #006D77;
+  margin: 6px 0;
+}
+@media screen and (min-width: 431px) {
+  .burger-icon span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 431px) {
+  #openBtn {
+    display: none;
+  }
 }
 
 .footer {
