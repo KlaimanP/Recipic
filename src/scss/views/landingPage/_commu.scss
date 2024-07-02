@@ -14,6 +14,11 @@
         justify-content: space-around;
         padding: 60px 237px;
         gap: 203px;
+        @media screen and (max-width: 1024px) {
+            gap: 68px;
+            padding: 60px 100px;
+          }
+        
         
 
         &__marie {
@@ -25,6 +30,7 @@
             box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.25);
             width: 330px;
             margin: 0 auto;
+
             
 
             &__data {
@@ -39,6 +45,9 @@
                 border-radius: 5px;
                 line-height: 24px;
                 color: $white;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }    
 
             &__decouvrir:hover{
@@ -47,6 +56,9 @@
                 border: solid 2px $tertiaryColor;
                 border-radius: 5px;
                 background-color: $quaternaryColor;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }
         
         
@@ -76,6 +88,9 @@
                 border-radius: 5px;
                 line-height: 24px;
                 color: $white;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }    
 
             &__decouvrir:hover{
@@ -84,6 +99,9 @@
                 border: solid 2px $tertiaryColor;
                 border-radius: 5px;
                 background-color: $quaternaryColor;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }
         
         
@@ -113,6 +131,9 @@
                 border-radius: 5px;
                 line-height: 24px;
                 color: $white;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }    
 
             &__decouvrir:hover{
@@ -121,6 +142,9 @@
                 border: solid 2px $tertiaryColor;
                 border-radius: 5px;
                 background-color: $quaternaryColor;
+                @media screen and (max-width: 1024px) {
+                    padding: 10px 0px;
+                  }
             }
         
         }
@@ -148,20 +172,32 @@
     color:$tertiaryColor;
     width: 922px;
     margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+        width: 474px;
+      }
 }
 
 .commu p{
     width: 448px;
     margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+        width: 308px;
+      }
 }
 
 .pp {
     width: 91px;
     margin: 0 auto;
     padding-bottom: 25px;
+    @media screen and (max-width: 1024px) {
+        width: 58px;
+      }
 }
 
 .imgPlat{
     width: 280px;
     margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+        width: 175px;
+      }
 }

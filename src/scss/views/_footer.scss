@@ -2,12 +2,22 @@
     background-color: $tertiaryColor;
     color: $white;
     padding:100px 262px ;
+    @media screen and (max-width: 1024px) {
+        padding: 50px 200px 100px 100px;
+      }
 
     &__block{
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding-top: 100px;
+
+        @media screen and (max-width: 1024px) {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap : 60px;
+            padding-top: 50px;
+          }
 
         &__liste{
             cursor: pointer;

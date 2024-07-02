@@ -1,7 +1,22 @@
 .pause{
     height: 929px;
+
+    @media screen and (max-width: 1024px) {
+        height: 497px;
+      }
+      
+      @media screen and (max-width: 430px) {
+        height: 210px;
+    }
 }
 
 .pause img{
-    width: 1920px;
+    width: 100%;
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+      
+      @media screen and (max-width: 430px) {
+        width: 100%;
+    }
 }
